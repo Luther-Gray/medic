@@ -1,0 +1,22 @@
+{
+  "item.medic.bandage": "Bandage",
+  "item.medic.plaster": "Plaster",
+  "item.medic.elixir": "§pElixir§p",
+  "item.medic.elixir_patch": "Elixir Patch",
+  "item.medic.med_kit": "Med-Kit",
+  "item.medic.painkillers": "Painkillers",
+  "item.medic.salve": "Salve",
+  "item.medic.splint": "Splint",
+  "itemgroup.medic.medic_items": "Medic!",
+  "effect.medic.bleeding": "Bleeding",
+  "effect.medic.crippled": "Crippled",
+  "effect.medic.heatstroke": "Heatstroke",
+  "effect.medic.frostbite": "Frostbite",
+  "effect.medic.remission": "Remission",
+  "effect.medic.heavy_bleeding": "Heavy Bleeding",
+  "effect.medic.bitten": "Bitten",
+  "effect.medic.infected": "Infected",
+  "effect.medic.hb_recovery": "Bleeding Healing",
+  "effect.medic.c_recovery": "Cripple Healing",
+  "effect.medic.bf_recovery": "Climate Healing"
+}

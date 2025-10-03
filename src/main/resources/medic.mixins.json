@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.otherheaven.medic.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "InjuryChanceMixin",
+    "ZombieEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

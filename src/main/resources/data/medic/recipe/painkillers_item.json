@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:spider_eye"
+    },
+    "$": {
+      "item": "minecraft:ghast_tear"
+    },
+    "@": {
+      "item": "minecraft:sugar"
+    },
+    "%": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "pattern": [
+    "@@@",
+    "#$#",
+    " % "
+  ],
+  "result": {
+    "count": 1,
+    "id": "medic:painkillers"
+  }
+
+}

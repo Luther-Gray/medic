@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:wool_carpets"
+    },
+    "$": {
+      "item": "minecraft:slime_ball"
+    },
+    "@": {
+      "item": "minecraft:leather"
+    },
+    "!": {
+      "item": "minecraft:honey_block"
+    }
+  },
+  "pattern": [
+    "$#$",
+    "#!#",
+    "@@@"
+  ],
+  "result": {
+    "count": 2,
+    "id": "medic:plaster"
+  }
+
+}

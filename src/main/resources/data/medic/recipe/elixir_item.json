@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:end_rod"
+    },
+    "$": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "@": {
+      "item": "minecraft:nether_star"
+    },
+    "%": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    " $ ",
+    "%@%",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "medic:elixir"
+  }
+
+}

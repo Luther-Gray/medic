@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "key": {
+    "#": {
+      "item": "medic:bandage"
+    },
+    "$": {
+      "item": "medic:salve"
+    },
+    "%": {
+      "item": "medic:splint"
+    },
+    "@": {
+      "item": "minecraft:chest"
+    },
+    "!": {
+      "item": "medic:plaster"
+    }
+  },
+  "pattern": [
+    "%$%",
+    "!@!",
+    "#$#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "medic:med_kit"
+  }
+
+}

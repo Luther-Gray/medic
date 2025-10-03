@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:wool_carpets"
+    },
+    "$": {
+      "item": "minecraft:slime_ball"
+    },
+    "@": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "$#$",
+    "@@@"
+  ],
+  "result": {
+    "count": 3,
+    "id": "medic:bandage"
+  }
+
+}

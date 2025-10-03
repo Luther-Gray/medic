@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "medic",
+	"version": "${version}",
+	"name": "Medic!",
+	"description": "Medic! is a simple Health Overhaul for Fabric. It features Injuries, Treatments and even an optional Zombie Infection Module.",
+	"authors": [
+		"Luther Gray"
+	],
+	"contact": {
+		"homepage": "https://otherheaven.net",
+		"sources": "https://codeberg.org/LutherDev/Medic"
+	},
+	"license": "Mixed; see LICENSE file for details",
+	"icon": "assets/medic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.otherheaven.medic.Medic"
+		],
+		"client": [
+			"net.otherheaven.medic.MedicClient"
+		],
+		"fabric-datagen": [
+			"net.otherheaven.medic.MedicDataGenerator"
+		]
+	},
+	"mixins": ["medic.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
